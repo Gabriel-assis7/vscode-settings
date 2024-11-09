@@ -1,0 +1,140 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "auto",
+    "workbench.statusBar.visible": false,
+    "window.titleBarStyle": "custom",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, bun.lockb*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*", },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.env.windows": {},
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.labelFormat": "short",
+    "vscode-edge-devtools.webhintInstallNotification": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command",
+        "remote-add:command"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "update.mode": "manual",
+    "glassit.alpha": 220,
+    "workbench.iconTheme": "symbols",
+    "liveServer.settings.donotVerifyTags": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "gitlens.views.branches.branches.layout": "list",
+    "git.replaceTagsWhenPull": true,
+    "gitlens.blame.highlight.locations": [
+        "gutter",
+        "overview",
+        "line"
+    ],
+    "gitlens.menus": {
+        "editor": {
+            "blame": true,
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "editorGroup": {
+            "blame": true,
+            "compare": true
+        },
+        "editorGutter": {
+            "compare": true,
+            "remote": true,
+            "share": true
+        },
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "ghpr": {
+            "worktree": true
+        },
+        "scm": {
+            "graph": true
+        },
+        "scmRepositoryInline": {
+            "graph": true,
+            "stash": false
+        },
+        "scmRepository": {
+            "authors": true,
+            "generateCommitMessage": true,
+            "patch": true,
+            "graph": false
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "patch": true,
+            "stash": true
+        },
+        "scmItemInline": {
+            "stash": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true,
+            "share": true,
+            "stash": true
+        }
+    },
+    "gitlens.hovers.currentLine.over": "annotation",
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBorder": "default"
+},
+    "breadcrumbs.enabled": false,
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".actions-container": "align-items: center"
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "workbench.colorTheme": "Pitch Black",
+}

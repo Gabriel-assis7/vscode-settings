@@ -17,7 +17,7 @@
     "package.json": "eslint*, yarn*, readme*, tsconfig*, vite*, package-lock*, .gitignore",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
-    ".env": ".env*", },
+    ".env": ".env*"},
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "terminal.integrated.env.windows": {},
@@ -30,7 +30,7 @@
     "github.copilot.editor.enableAutoCompletions": true,
     "gitlens.gitCommands.skipConfirmations": [
         "fetch:command",
-        "switch:command",
+        "switch:command"
     ],
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -136,5 +136,5 @@
     "workbench.layoutControl.enabled": false,
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "workbench.colorTheme": "Default Dark+",
-    "window.commandCenter": false,
+    "window.commandCenter": false
 }

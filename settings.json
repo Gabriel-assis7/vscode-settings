@@ -14,10 +14,10 @@
     "window.titleBarStyle": "custom",
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, bun.lockb*",
+    "package.json": "eslint*, yarn*, readme*, tsconfig*, vite*, package-lock*, .gitignore",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
-    ".env": ".env*"},
+    ".env": ".env*" },
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "terminal.integrated.env.windows": {},
@@ -30,8 +30,7 @@
     "github.copilot.editor.enableAutoCompletions": true,
     "gitlens.gitCommands.skipConfirmations": [
         "fetch:command",
-        "switch:command",
-        "remote-add:command"
+        "switch:command"
     ],
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -123,7 +122,8 @@
     },
     "gitlens.hovers.currentLine.over": "annotation",
     "workbench.colorCustomizations": {
-        "editor.selectionHighlightBorder": "default"
+        "editor.selectionHighlightBorder": "default",
+        "sideBar.background": "#0d1c0b"
 },
     "breadcrumbs.enabled": false,
     "apc.stylesheet": {
@@ -136,5 +136,8 @@
     },
     "workbench.layoutControl.enabled": false,
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.commandCenter": false,
     "workbench.colorTheme": "Pitch Black"
 }

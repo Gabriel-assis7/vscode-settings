@@ -14,7 +14,7 @@
     "window.titleBarStyle": "custom",
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
-    "package.json": "eslint*, yarn*, readme*, tsconfig*, vite*, package-lock*, .gitignore",
+    "package.json": "eslint*, nest*, .prettier*, nodemon*, .eslintrc*, yarn*, next*, readme*, tsconfig*, vite*, package-lock*, .gitignore",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*" },
@@ -122,9 +122,8 @@
     },
     "gitlens.hovers.currentLine.over": "annotation",
     "workbench.colorCustomizations": {
-        "editor.selectionHighlightBorder": "default",
-        "sideBar.background": "#0d1c0b"
-},
+        "editor.selectionHighlightBorder": "default"
+    },
     "breadcrumbs.enabled": false,
     "apc.stylesheet": {
         ".title-label > h2": "display: none",
@@ -138,6 +137,13 @@
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "git.confirmSync": false,
+    "tabnine.experimentalAutoImports": true,
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "workbench.colorTheme": "Aura Soft Dark",
     "window.commandCenter": false,
-    "workbench.colorTheme": "Pitch Black"
+    "terminal.integrated.tabs.enabled": false
 }
